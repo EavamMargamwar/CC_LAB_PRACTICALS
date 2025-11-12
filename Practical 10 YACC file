@@ -36,3 +36,8 @@ int yyerror(char *s) {   /* ← Fix: correct function signature */
     return 0;
 }
 
+
+/Sample Input:
+//(a + b) * (c - d)
+//x + y * z
+
